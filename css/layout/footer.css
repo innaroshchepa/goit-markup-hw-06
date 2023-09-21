@@ -18,7 +18,7 @@
     letter-spacing: 0.02em;
     width: 288px;
     margin-top: 18px;
-    margin-bottom: 72px;
+    
 }
 .bottom-page-social-text {
     color: #FFF;
@@ -123,11 +123,15 @@
 
 }
 @media screen and (max-width: 767px) {
+  
     .bottom-page .logo {
        text-align: center;
         
     }
-    .bottom-page-text {
+    .bottom-page-logotype {
+        margin-bottom: 72px;
+    }
+    .bottom-page-social {
         margin-bottom: 72px;
     }
     .bottom-page-social-text {
@@ -136,34 +140,41 @@
     .bottom-page-socials-list {
         align-items: center;
         justify-content: center;
-        padding-bottom: 72px;
+        
     }
     .subscription-subtitle {
         text-align: center;
     }
-    .subscription-input {
+    .subscription-label {
         margin-bottom: 16px;
     }
     .subscription-button {
-        margin: 0 auto;
+        margin-top: 16px;
+        margin-right: auto;
+        margin-left: auto;
+        
     }
     
 }
+
+@media screen and (min-width: 758px) and (max-width: 1157px) {
+    .container-bottom-page {
+        width: 584px;
+        gap: 72px 24px;
+    }
+    
+}
+
 @media screen and (min-width: 768px) {
     .bottom-page-text {
         width: 264px;
-    }
-    .bottom-page-logotype {
-        margin-right: 24px;
     }
     .subscription-input {
         width: 264px;
     }
     .container-bottom-page {
         display: flex;
-        
         flex-wrap: wrap;
-        justify-content: center;
         }
    
     .subscription {

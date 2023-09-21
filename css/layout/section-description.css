@@ -7,7 +7,7 @@
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-transform: capitalize;
@@ -19,15 +19,10 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-    
 }
 
 @media screen and (max-width: 767px) {
-    .description {
-            padding-bottom: 24px;
-        }
-    .descr-info {
+    .descr-text {
         margin-bottom: 72px;
     }
     .description-title {
